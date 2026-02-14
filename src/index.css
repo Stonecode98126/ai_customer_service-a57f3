@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;min-height: 100vh;
 }
 
 body {
@@ -12,4 +12,5 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
+  background: linear-gradient(to bottom, #0077be, #00a8e8); 
+  }
