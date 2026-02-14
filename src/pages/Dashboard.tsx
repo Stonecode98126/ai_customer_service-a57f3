@@ -190,7 +190,7 @@ export default function Dashboard() {
       </div>
 
       {/* AI System Prompt & Reference */}
-      <div className="bg-white p-8 rounded-xl shadow-sm border space-y-6">
+      <div className="bg-white/60 backdrop-blur-sm p-4 rounded-xl shadow-sm border space-y-6">
         <h3 className="text-lg font-bold border-b pb-4">AI 指令與知識庫</h3>
         <div className="space-y-4">
           <div>
@@ -214,7 +214,7 @@ export default function Dashboard() {
       </div>
 
       {/* LINE & Handover Settings */}
-      <div className="bg-white p-8 rounded-xl shadow-sm border space-y-6">
+      <div className="bg-white/60 backdrop-blur-sm p-4 rounded-xl shadow-sm border space-y-6">
         <h3 className="text-lg font-bold border-b pb-4 flex items-center gap-2"><MessageCircle className="w-5 h-5 text-green-500" />LINE 與人工轉接</h3>
         <div className="grid grid-cols-2 gap-6">
           <div className="col-span-2">
