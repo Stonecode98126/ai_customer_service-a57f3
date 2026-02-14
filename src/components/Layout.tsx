@@ -13,7 +13,7 @@ export default function Layout() {
   return (
     <div className="flex min-h-screen bg-gray-50 w-full">
       {/* Sidebar */}
-      <aside className="w-64 bg-white border-r border-gray-200 flex flex-col">
+      <aside className="w-64 bg-white/70 backdrop-blur-md border-r border-gray-200 flex flex-col">
         <div className="p-6 border-b">
           <h1 className="text-xl font-bold text-gray-800 flex items-center gap-2">
             <Settings className="w-6 h-6 text-blue-600" />
