@@ -30,7 +30,7 @@ export default function Login() {
     <div className="min-h-screen flex items-center justify-center bg-[#f8fafc] p-4">
       <div className="max-w-md w-full bg-white rounded-2xl shadow-xl border border-gray-100 p-8">
         <div className="flex flex-col items-center mb-8">
-          <div className="bg-blue-600 p-3 rounded-xl shadow-lg shadow-blue-200 mb-4">
+          <div className="bg-white/60 backdrop-blur-sm p-4 rounded-xl shadow-lg shadow-blue-200 mb-4">
             <Settings className="w-8 h-8 text-white" />
           </div>
           <h1 className="text-2xl font-bold text-gray-900">AI 客服後台</h1>
